@@ -1,0 +1,75 @@
+# Set End of Line standard. Overwrite git config
+* text eol=lf
+
+# Define CRLF files
+*.sln text eol=CRLF
+*.bat text eol=CRLF
+*.cmd text eol=CRLF
+
+# Define diff files
+*.xhtml text diff=html
+*.html text diff=html
+
+*.css text diff=css
+*.scss text diff=css
+
+*.md text diff=markdown
+*.mdwn text diff=markdown
+*.mdown text diff=markdown
+*.mkd text diff=markdown
+*.mkdn text diff=markdown
+*.markdown text diff=markdown
+
+# Configs
+*.cnf text
+*.conf text
+*.config text
+.editorconfig text
+.env text
+.gitattributes text
+.gitconfig text
+.htaccess text
+*.lock text -diff
+package.json tex
+package-lock.json text -diff
+pnpm-lock.yaml text -diff
+.prettierrc text
+yarn.lock text -diff
+*.toml text
+*.yaml text
+*.yml text
+browserslist text
+Makefile text
+makefile text
+
+# Define binary files
+# Graphics
+*.ai  binary
+*.bmp binary
+*.eps binary
+*.gif binary
+*.gifv binary
+*.ico binary
+*.jng binary
+*.jp2 binary
+*.jpg binary
+*.jpeg binary
+*.jpx binary
+*.jxr binary
+*.pdf binary
+*.png binary
+*.psb binary
+*.psd binary
+*.svg binary
+*.svgz binary
+*.tif  binary
+*.tiff binary
+*.wbmp binary
+*.webp binary
+
+# Fonts
+*.ttf binary
+*.eot binary
+*.otf binary
+*.woff binary
+*.woff2 binary
